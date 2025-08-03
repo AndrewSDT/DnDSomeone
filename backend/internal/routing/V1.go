@@ -7,7 +7,7 @@ import (
 )
 
 func LoadRoutes(e *echo.Echo) {
-	g := e.Group("/v1")
+	g := e.Group("/api/v1")
 	g.GET("/health", func(c echo.Context) error {
 		return c.JSON(http.StatusOK, map[string]string{"status": "healthy"})
 	})
