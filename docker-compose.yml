@@ -5,3 +5,12 @@ services:
       dockerfile: ../docker/backend/Dockerfile
     ports:
       - "8080:8080"
+  
+  node:
+    image: node:16-alpine
+    volumes:
+      - ./frontend/dnd:/app
+    ports:
+      - "3000:3000"
+    working_dir: /app
+    command: npm rum start
