@@ -1,0 +1,104 @@
+.headers{
+    padding: 10px;
+    background-color: 2A2A2A;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.body {
+    background-image:url("./backgroundsite.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f0f0f0;
+    weight: 1440px;
+    height: 731px;
+}
+
+.footer{
+    background-color: 2A2A2A;
+    position:absolute;
+    bottom: -100;
+    left: 0;
+    right: 100;
+    padding: 10px;
+    weight: 1350;
+    height: 68.8333;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -110px;
+    display: grid;
+    grid-template-columns: [col-first] minmax(min(95%,1184px),300px) [col-last];
+    justify-content: center;
+
+}
+    
+.border-color {color:#896E38;}
+.text-font {font-family:Reaver,serif;}
+.text-style{color:#896E38;}
+.head-text-size{font-size:large;}
+.main-text-size{font-size:24px;}
+
+.skillbox{
+weight: 101px;
+height: 112px;
+border-radius:21;
+background-color:#1D2433;
+border-color:#896E38;
+border:2px;
+}
+.iconclas{
+width: 248px;
+height: 247px;
+position: absolute;
+left: 162px;
+top: 217px;
+border-top-left-radius:34px;
+border-top-right-radius:34px;
+border-bottom-right-radius:123.5px;
+border-bottom-left-radius:123.5px;
+background-color:#1D2433 ;
+color: #f0f0f0;
+
+
+}
+
+.iconclas2{
+width: 248px;
+height: 247px;
+position: absolute;
+left: 582px;
+top: 217px;
+border-top-left-radius:34px;
+border-top-right-radius:34px;
+border-bottom-right-radius:123.5px;
+border-bottom-left-radius:123.5px;
+background-color:#1D2433 ; 
+}
+
+.iconclas3{
+width: 248px;
+height: 247px;
+position: absolute;
+left: 1001px;
+top: 217px;
+border-top-left-radius:34px;
+border-top-right-radius:34px;
+border-bottom-right-radius:123.5px;
+border-bottom-left-radius:123.5px;
+background-color:#1D2433 ; 
+}
+
+
+.authorization-button{
+    border: #896E38;
+    border-radius: 100px;
+    weight: 59%s;
+    height: 59px;
+    margin-top: -65px;
+    margin-left: 50px;
+    background-color:#896E38;
+    color: #f0f0f0;
+    float: right;
+
+}
